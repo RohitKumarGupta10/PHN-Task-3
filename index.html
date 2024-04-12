@@ -58,13 +58,26 @@
       font-size: 20px;
       margin: 5px 0;
     }
+
     button {
-      color: white;
-      background-color: red;
-      font-size: 25px;
-      padding: 5%;
-      border-radius: 10px;
-    }
+            padding: 15px;
+            cursor: pointer;
+            margin: 18px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.2s ease-in-out, transform 0.5s ease;
+        }
+
+        button:hover {
+            background-color: #5b096f;
+            transform: scale(1.2);
+        }
+
+
+ 
   </style>
 
  <!--Html code starts here--> 
@@ -95,7 +108,7 @@
           <img src="boat3.jpg" alt="Product 3">
           <p>boAt TRebel Airdopes 381</p>
           <p>₹ 2,199</p>
-          <button>Add To Cart</button>
+         <button>Add To Cart</button>
         </li>
         <ul class="products"><li class="product">
               <img src="apple.jpg" alt="Product 1">
